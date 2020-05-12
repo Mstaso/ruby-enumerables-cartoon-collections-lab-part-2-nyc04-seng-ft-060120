@@ -29,3 +29,4 @@ def find_valid_calls(planeteer_calls)
   if planeteer_calls.include? valid_calls
     return planeteer_calls(valid_calls[0])
 end
+end
