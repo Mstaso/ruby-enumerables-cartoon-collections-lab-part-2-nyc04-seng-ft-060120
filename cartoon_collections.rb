@@ -29,5 +29,6 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
   while count < valid_calls.length 
    return valid_calls[count] if planeteer_calls.include?(valid_calls[count])
+   count += 1
   end
 end
